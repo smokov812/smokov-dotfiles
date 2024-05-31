@@ -6,7 +6,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/smokov812/smokov-dotfiles?style=for-the-badge">
   </br>
-   Форк https://github.com/Zproger/bspwm-dotfiles
+   fork https://github.com/Zproger/bspwm-dotfiles
   </br>
 </p>
 
