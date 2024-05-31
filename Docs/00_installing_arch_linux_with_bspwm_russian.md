@@ -1,8 +1,6 @@
 Данный файл содержит последовательность команд, которая нужна для полной установки системы Arch Linux.
 Он также включает в себя использование билдера из репозитория, который автоматически разворачивает BSPWM окружение.
 
-Здесь хранятся самые актуальные команды. Для простоты понимания рекомендую посмотреть это [видео](https://youtu.be/9zewiGf7j-A), сравнивая с инструкцией (но предпочтение к командам отдавайте в первую очередь этому файлу).
-
 ### Подключаемся к WiFi (необязательно)
 ```bash
 iwctl
@@ -145,7 +143,7 @@ micro arch.conf
 
 # Вставляем в arch.conf следующее:
 # UUID можно узнать командой blkid
-title Arch Linux by ZProger
+title Arch Linux by smokov
 linux /vmlinuz-linux
 initrd /initramfs-linux.img
 options rw cryptdevice=UUID=uuid_от_/dev/sda2:main root=/dev/mapper/main-root
@@ -184,8 +182,8 @@ exec bspwm
 
 и выполните сборку оболочки используя данные команды:
 ```bash
-git clone https://github.com/Zproger/bspwm-dotfiles.git
-cd bspwm-dotfiles
+git clone https://github.com/smokov812/smokov-dotfiles.git
+cd smokov-dotfiles
 python3 Builder/install.py
 ```
 
@@ -197,5 +195,4 @@ python3 Builder/install.py
 startx
 ```
 
-Из-за разного железа / разных дистрибутивов и прочих моментов, могут быть небольшие проблемы в отображении иконок, в работе с батареей / яркостью. Решение этих
-проблем было показано в [данном видео](https://youtu.be/9zewiGf7j-A).
+Из-за разного железа / разных дистрибутивов и прочих моментов, могут быть небольшие проблемы в отображении иконок, в работе с батареей / яркостью. 
