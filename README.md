@@ -1,12 +1,9 @@
-<h1 align="center"> :herb: ZProger Build :herb: </h1>
+<h1 align="center"> :herb: smokov Build :herb: </h1>
 
 <!-- BADGES -->
 </br>
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">
-  </br>
-  <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">
   <img src="https://img.shields.io/github/repo-size/Zproger/bspwm-dotfiles?style=for-the-badge">
   </br>
 </p>
@@ -108,4 +105,3 @@ The other hotkeys are in `~/.config/sxhkd/sxhkdrc`.
 
 #
 
-The project is actively developing, so you can offer your ideas for improvements and visit our [YouTube channel](https://youtube.com/@zproger) and [Telegram](https://t.me/codeblog8). Go to the `Projects` tab to keep track of current shell updates and future improvements.
